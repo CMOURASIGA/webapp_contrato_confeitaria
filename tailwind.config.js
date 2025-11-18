@@ -7,28 +7,28 @@ export default {
   theme: {
     extend: {
       colors: {
-        // Restaurando a paleta "Rosa/Creme" (Doces & Sonhos original)
+        // Paleta Regina Ribas (Baseada na logo enviada)
         brand: {
-          50: '#fff1f2', // Fundo Rosado/Creme bem claro
-          100: '#ffe4e6',
-          200: '#fecdd3', // Bordas suaves
-          300: '#fda4af',
-          400: '#fb7185',
-          500: '#f43f5e',
-          600: '#e11d48', // Cor primária (Botões, Destaques) - Rosa Intenso
-          700: '#be123c',
-          800: '#9f1239', // Textos principais
-          900: '#881337', // Textos escuros
-          950: '#4c0519',
+          50: '#faf7f2', // Fundo Creme Suave
+          100: '#f3ebe1',
+          200: '#e6d6c1', // Bege claro
+          300: '#d4bba0',
+          400: '#c29d7c',
+          500: '#ae815e',
+          600: '#8d6246', // Marrom Chocolate Claro (Botões)
+          700: '#714c38',
+          800: '#5e3f32', // Texto Principal (Marrom Escuro)
+          900: '#4d342c', // Texto Escuro
+          950: '#2b1c17',
         },
-        // Mantendo um toque de dourado para alertas/estrelas, mas suave
+        // Dourado/Laranja da flor da logo
         accent: {
           50: '#fffbeb',
           100: '#fef3c7',
           200: '#fde68a',
           300: '#fcd34d',
           400: '#fbbf24',
-          500: '#f59e0b',
+          500: '#f59e0b', // Dourado Principal
           600: '#d97706',
           700: '#b45309',
           800: '#92400e',
