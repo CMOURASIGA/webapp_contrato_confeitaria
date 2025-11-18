@@ -7,32 +7,32 @@ export default {
   theme: {
     extend: {
       colors: {
-        // Paleta Regina Ribas (Baseada na logo enviada)
+        // Paleta Yuri Velloso (Híbrida para adaptar ao código existente)
         brand: {
-          50: '#faf7f2', // Fundo Creme Suave
-          100: '#f3ebe1',
-          200: '#e6d6c1', // Bege claro
-          300: '#d4bba0',
-          400: '#c29d7c',
-          500: '#ae815e',
-          600: '#8d6246', // Marrom Chocolate Claro (Botões)
-          700: '#714c38',
-          800: '#5e3f32', // Texto Principal (Marrom Escuro)
-          900: '#4d342c', // Texto Escuro
-          950: '#2b1c17',
+          50: '#fffcf5', // Fundo Creme Bem Claro (Círculo do logo)
+          100: '#f9f1e0',
+          200: '#decab0', // Taupe/Bege (Bordas suaves)
+          300: '#c2a689', // Cor "Velloso"
+          400: '#ef5350', // Vermelho claro (Hover/Focus)
+          500: '#e53935', // Vermelho Coral Vibrante
+          600: '#d32f2f', // VERMELHO "Yuri" (Cor Principal dos Botões)
+          700: '#8d6e63', // Marrom médio
+          800: '#5d4037', // Marrom Chocolate (Textos e Faixa)
+          900: '#3e2723', // Marrom Café (Texto escuro)
+          950: '#281815',
         },
-        // Dourado/Laranja da flor da logo
+        // Detalhes em Dourado/Âmbar (Camadas do bolo)
         accent: {
-          50: '#fffbeb',
-          100: '#fef3c7',
-          200: '#fde68a',
-          300: '#fcd34d',
-          400: '#fbbf24',
-          500: '#f59e0b', // Dourado Principal
-          600: '#d97706',
-          700: '#b45309',
-          800: '#92400e',
-          900: '#78350f',
+          50: '#fff8e1',
+          100: '#ffecb3',
+          200: '#ffe082',
+          300: '#ffd54f',
+          400: '#ffca28', // Dourado do bolo
+          500: '#ffc107',
+          600: '#ffb300',
+          700: '#ffa000',
+          800: '#ff8f00',
+          900: '#ff6f00',
         }
       },
       fontFamily: {

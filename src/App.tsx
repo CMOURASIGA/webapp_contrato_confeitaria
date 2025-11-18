@@ -24,8 +24,8 @@ const App: React.FC = () => {
                   <Cake className="h-6 w-6 text-brand-600" />
                 </div>
                 <div className="ml-3">
-                  <h1 className="text-xl font-bold text-brand-800 leading-tight">Doces & Sonhos</h1>
-                  <p className="text-xs text-brand-400 font-medium">Gestor de Orçamentos</p>
+                  <h1 className="text-xl font-bold text-brand-600 leading-tight font-serif">Yuri Velloso</h1>
+                  <p className="text-xs text-brand-800 font-medium tracking-wide">BOLOS E DOCES PERSONALIZADOS</p>
                 </div>
               </div>
 
