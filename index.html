@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Doces & Sonhos - Gestor</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              brand: {
+                50: '#faf9f6',
+                100: '#f5f0eb', // Creamy
+                200: '#e6dcd3',
+                300: '#d4c2b5',
+                400: '#bda090',
+                500: '#a17f6e',
+                600: '#6e564b', // Primary Brown (Logo text color)
+                700: '#5a463e',
+                800: '#4b3b35',
+                900: '#3e312d',
+                950: '#231b19',
+              },
+              accent: {
+                50: '#fffceb',
+                100: '#fef5c7',
+                200: '#fde88a',
+                300: '#fbd34d',
+                400: '#f4b942', // Logo Flower Gold
+                500: '#f59e0b',
+                600: '#d97706',
+                700: '#b45309',
+                800: '#92400e',
+                900: '#78350f',
+              }
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      /* Hide scrollbar for chrome/safari/opera */
+      .no-scrollbar::-webkit-scrollbar {
+        display: none;
+      }
+      /* Hide scrollbar for IE, Edge and Firefox */
+      .no-scrollbar {
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.554.0"
+  }
+}
+</script>
+</head>
+  <body class="bg-brand-50 text-brand-900">
+    <div id="root"></div>
+  </body>
+</html>
